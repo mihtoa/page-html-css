@@ -1,4 +1,47 @@
 body {
-  background-color:white;
-  background-image: linear-gradient(to bottom, green, white);
+  background-color: white;
+  background-image: linear-gradient(#006600, white);
+  background-size: 100% 18em;
+  background-repeat: no-repeat;
+  font-family: Arial;
+}
+
+#block-txts img {
+  width: 50em;
+  border-radius: 0.7em 0.7em 0em 0em;
+}
+
+h1 {
+  margin: 1em;
+  font-style: italic;
+  font-size: 1.375em;
+  color: #006600;
+  text-shadow: 0.05em 0.05em 0.2em rgba(100, 100, 100, 0.8);
+}
+
+h2 {
+  font-size: 0.875em;
+  margin-left: 1.7em;
+}
+
+p {
+  height: auto;
+  font-size: 0.8em;
+  margin-left: 1.7em;
+}
+
+#block-txts {
+  background-color: white;
+  border: 1em;
+  height: 60em;
+  width: 50em;
+  margin-top: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.7em;
+  box-shadow: 0.11em 0.11em 0.2em rgba(100, 100, 100, 0.9);
+}
+
+#thumb img {
+  float: left;
 }
