@@ -1,7 +1,7 @@
 body {
   background-color: white;
   background-image: linear-gradient(#006600, white);
-  background-size: 100% 18em;
+  background-size: 100% 19em;
   background-repeat: no-repeat;
   font-family: Arial;
 }
@@ -52,9 +52,10 @@ h1 {
 #block-txts {
   background-color: #f4f4f4;
   border: 1em;
-  height: 130em;
+  height: 114em;
   width: 50em;
   margin-top: 2.5em;
+  margin-bottom: 2.5em;
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.7em;
@@ -68,10 +69,9 @@ h1 {
 }
 
 .thumb-g {
-  border: 1px solid red;
   float: left;
   width: 21.875em;
-  padding: 0.65em;
+  padding: 0 1.05em 1.05em;
 }
 
 .thumb-g h2 {
@@ -85,7 +85,37 @@ h1 {
 }
 
 hr {
-  border: 0.06em solid #ccc;
+  border: 0.07em solid #cccccc;
   width: 46.5em;
   margin-bottom: 3em;
+}
+
+#thumb-g {
+  margin: 0 -0.8em;
+}
+
+@media (max-width: 1080px) {
+  .header {
+    width: 21.55em;
+  }
+  h1 {
+    font-size: 130%;
+  }
+  #block-txts {
+    margin-top: auto;
+    width: 100%;
+    height: 195em;
+  }
+  .thumb-g {
+    width: 100%;
+  }
+  hr {
+    width: 100%;
+  }
+  .thumb-g img {
+    width: 17.6em;
+  }
+  .thumb-g p {
+    width: 17.6em;
+  }
 }
