@@ -72,16 +72,14 @@ h1 {
   float: left;
   width: 21.875em;
   padding: 0 1.05em 1.05em;
-}
-
-.thumb-g h2 {
-  font-size: 1.1em;
-}
-
-.thumb-g p {
-  font-size: 0.87em;
-  line-height: 1.3em;
-  margin-top: -0.7em;
+  h2 {
+    font-size: 1.1em;
+  }
+  p {
+    font-size: 0.87em;
+    line-height: 1.3em;
+    margin-top: -0.7em;
+  }
 }
 
 hr {
@@ -90,7 +88,17 @@ hr {
   margin-bottom: 3em;
 }
 
-#thumb-g {
+a {
+  text-decoration: none;
+  color: #006600;
+}
+
+a .red {
+  text-decoration: none;
+  color: #006600;
+}
+
+#thumbs-g {
   margin: 0 -0.8em;
 }
 

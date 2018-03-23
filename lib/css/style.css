@@ -90,7 +90,17 @@ hr {
   margin-bottom: 3em;
 }
 
-#thumb-g {
+a {
+  text-decoration: none;
+  color: #006600;
+}
+
+a .red {
+  text-decoration: none;
+  color: #006600;
+}
+
+#thumbs-g {
   margin: 0 -0.8em;
 }
 
