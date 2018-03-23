@@ -14,7 +14,7 @@ h1 {
 }
 
 hr {
-  border: 0.07em solid #cccccc;
+  color: #cccccc;
   width: 46.5em;
   margin-bottom: 3em;
 }
@@ -99,21 +99,25 @@ a {
 }
 
 @media (max-width: 1080px) {
-  .header {
-    width: 21.55em;
-  }
   h1 {
     font-size: 130%;
   }
+  hr {
+    width: 100%;
+  }
   #block-txts {
     margin-top: auto;
-    width: 100%;
-    height: 195em;
+    max-width: 100%;
+    height: auto;
+  }
+  #thumbs-g {
+    margin: auto;
+  }
+  .header {
+    max-width: 100%;
+    height: auto;
   }
   .thumb-g {
-    width: 100%;
-  }
-  hr {
     width: 100%;
   }
   .thumb-g img {
